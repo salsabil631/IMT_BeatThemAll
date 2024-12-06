@@ -19,9 +19,9 @@ public class Main {
         //DEBUISSON Julian et AMRI Salsabil
 
 
-        possibleHeros.add(new Hero("Guerrier", 100, 50, 70, new Oneshot()));
+        possibleHeros.add(new Hero("Guerrier", 100, 50, 70, new Invinsible()));
         possibleHeros.add(new Hero("Mage", 80, 80, 50, new Soigner()));
-        possibleHeros.add(new Hero("Voleur", 90, 60, 30, new Invinsible()));
+        possibleHeros.add(new Hero("Voleur", 60, 90, 30, new Oneshot()));
 
         possibleCartes.add(new Carte(1, "Foret", 5));
         possibleCartes.add(new Carte(2, "Montagne", 10));
@@ -45,7 +45,7 @@ public class Main {
 
     
 
-        System.out.println("Vous avez choisi " + hero.getNom() + " et la carte " + carte.getNom());
+        System.out.println("\nVous avez choisi " + hero.getNom() + " et la carte " + carte.getNom());
         System.out.println("Appuyez sur entrée pour commencer");
         scanner.nextLine();
 
@@ -54,11 +54,12 @@ public class Main {
             System.out.println("Il y a " + carte.getNbEnnemis() + " ennemis");
 
             if (hero.isCapaciteSpecialeUtilisable()){
-                System.out.println("Voulez-vous utiliser votre capacité spéciale ? oui/non");
+                System.out.println("\nVoulez-vous utiliser votre capacité spéciale ? oui/non");
 
                 String choix = scanner.nextLine();
                 if (choix.equals("oui")) {
                     hero.utiliserCapaciteSpeciale(carte.currentEnnemi());
+                    carte.isEnemiDead(carte.currentEnnemi());
                 }
             }
 
@@ -66,7 +67,7 @@ public class Main {
             scanner.nextLine();
             hero.attaquer(carte.currentEnnemi());
             boolean fin = carte.finTour(hero);
-            System.out.println("Fin du tour");
+            System.out.println("\nFin du tour");
 
             if (fin) {
                 System.out.println("Vous avez gagné !");

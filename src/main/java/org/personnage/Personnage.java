@@ -14,7 +14,7 @@ public abstract class Personnage {
     }
 
     public void attaquer(Personnage p) {
-        int degats = this.attaque - (this.attaque * (p.getDefense()/100));
+        int degats = this.attaque - (this.attaque * (p.getDefense()))/100;
         if (degats < 0) {
             degats = 0;
         }

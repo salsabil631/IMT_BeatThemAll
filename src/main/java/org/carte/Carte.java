@@ -23,15 +23,15 @@ public class Carte {
         this.lieu = lieu;
         this.nom = nom;
         this.fin = fin;
-        this.nbEnnemis = random.nextInt(MAX_NEW_ENNEMIS);
+        this.nbEnnemis = random.nextInt(MAX_NEW_ENNEMIS)+1;
         genererEnnemis();
     }
 
     public void salleSuivante(){
-        System.out.println("Vous avez vaincu tous les ennemis de la salle " + lieu);
-        System.out.println("Vous entrez dans la salle " + (lieu + 1));
+        System.out.println("\nVous avez vaincu tous les ennemis de la salle " + lieu);
+        System.out.println("Vous entrez dans la salle " + (lieu + 1) + "\n");
         if (nbEnnemis == 0) {
-            nbEnnemis = random.nextInt(MAX_NEW_ENNEMIS);
+            nbEnnemis = random.nextInt(MAX_NEW_ENNEMIS)+1;
             lieu++;
         }
         ennemis.clear();
@@ -41,21 +41,14 @@ public class Carte {
 
     public void genererEnnemis(){
         for (int i = 0; i < nbEnnemis; i++) {
-            ennemis.add(new Ennemi(random.nextInt(50), random.nextInt(50), random.nextInt(50), "Ennemi " + i, EnnemieType.getRandomType()));
+            ennemis.add(new Ennemi(random.nextInt(50)+1, random.nextInt(50)+1, random.nextInt(50)+1, "Ennemi " + i, EnnemieType.getRandomType()));
         }
     }
 
     public boolean finTour(Hero hero){
         Ennemi ennemi = currentEnnemi();
-        if (ennemi.getPv() < 0) {
-            System.out.println("L'ennemi " + ennemi.getNom() + " est mort");
-            ennemis.remove(ennemi);
-            nbEnnemis--;
-            if(nbEnnemis == 0){
-                salleSuivante();
-            }
-            ennemi = currentEnnemi();
-        }
+        isEnemiDead(ennemi);
+        ennemi = currentEnnemi();
         ennemi.attaquer(hero);
         if (hero.getPv() < 0) {
             System.out.println("Vous etes mort !");
@@ -66,7 +59,21 @@ public class Carte {
 
     }
 
+    public void isEnemiDead(Ennemi ennemi){
+        if (ennemi.getPv() < 0) {
+            System.out.println("\nL'ennemi " + ennemi.getNom() + " est mort");
+            ennemis.remove(ennemi);
+            nbEnnemis--;
+            if(nbEnnemis == 0){
+                salleSuivante();
+            }
+        }
+    }
+
     public Ennemi currentEnnemi(){
+        if (ennemis.isEmpty()) {
+            return null;
+        }
         return ennemis.get(nbEnnemis - 1);
     }
 
