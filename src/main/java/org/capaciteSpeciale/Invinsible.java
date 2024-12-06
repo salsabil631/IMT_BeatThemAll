@@ -3,21 +3,23 @@ package org.capaciteSpeciale;
 import org.personnage.Hero;
 import org.personnage.Ennemi;
 
-public class Invinsible extends CapaciteSpeciale {
+public class Invinsible implements CapaciteSpeciale {
     private int nbTour = 2;
+    private boolean estUtilise = false;
 
     @Override
-    public void utiliser(Hero hero, Ennemi ennemi, boolean utiliser) {
-        if (isEstDisponible() && utiliser) {
+    public void utiliser(Hero hero, Ennemi ennemi) {
+        if (!estUtilise) {
             hero.setDefense(hero.getDefense() + 100);
-            setEstDisponible(false);
-            setEstUtilise(true);
+            estUtilise = true;
             nbTour--;
+            System.out.println(hero.getNom() + " est invinsible pour 2 tours");
             return;
         }
-        if (nbTour == 0 && isEstUtilise()) {
+        if (nbTour == 0) {
             hero.setDefense(hero.getDefense() - 100);
-            setEstUtilise(false);
+            estUtilise = false;
+            System.out.println(hero.getNom() + " n'est plus invinsible");
             return;
         }
     }

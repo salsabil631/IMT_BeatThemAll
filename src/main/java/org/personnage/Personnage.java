@@ -4,9 +4,9 @@ public abstract class Personnage {
     private int pv;
     private int attaque;
     private int defense;
-    private int nom;
+    private String nom;
 
-    public Personnage(int pv, int attaque, int defense, int nom) {
+    public Personnage(int pv, int attaque, int defense, String nom) {
         this.pv = pv;
         this.attaque = attaque;
         this.defense = defense;
@@ -19,6 +19,7 @@ public abstract class Personnage {
             degats = 0;
         }
         p.setPv(p.getPv() - degats);
+        System.out.println(this.nom + " attaque " + p.getNom() + " et lui inflige " + degats + " points de dégats.");
     }
 
     public int getPv() {
@@ -45,11 +46,11 @@ public abstract class Personnage {
         this.defense = defense;
     }
 
-    public int getNom() {
+    public String getNom() {
         return nom;
     }
 
-    public void setNom(int nom) {
+    public void setNom(String nom) {
         this.nom = nom;
     }
 }
