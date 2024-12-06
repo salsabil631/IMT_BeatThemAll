@@ -23,7 +23,7 @@ public class Carte {
         this.lieu = lieu;
         this.nom = nom;
         this.fin = fin;
-        this.nbEnnemis = random.nextInt(MAX_NEW_ENNEMIS);;
+        this.nbEnnemis = random.nextInt(MAX_NEW_ENNEMIS);
         genererEnnemis();
     }
 
@@ -41,20 +41,20 @@ public class Carte {
 
     public void genererEnnemis(){
         for (int i = 0; i < nbEnnemis; i++) {
-            ennemis.add(new Ennemi(random.nextInt(100), random.nextInt(100), random.nextInt(100), "Ennemi " + i, EnnemieType.getRandomType()));
+            ennemis.add(new Ennemi(random.nextInt(50), random.nextInt(50), random.nextInt(50), "Ennemi " + i, EnnemieType.getRandomType()));
         }
     }
 
-    public void finTour(Hero hero){
-        Ennemi ennemi = currentEnnemie();
+    public boolean finTour(Hero hero){
+        Ennemi ennemi = currentEnnemi();
         if (ennemi.getPv() < 0) {
             System.out.println("L'ennemi " + ennemi.getNom() + " est mort");
             ennemis.remove(ennemi);
             nbEnnemis--;
-            if(ennemis.isEmpty()){
+            if(nbEnnemis == 0){
                 salleSuivante();
             }
-            ennemi = currentEnnemie();
+            ennemi = currentEnnemi();
         }
         ennemi.attaquer(hero);
         if (hero.getPv() < 0) {
@@ -62,33 +62,27 @@ public class Carte {
             System.exit(0);
         }
 
+        return lieu == fin+1;
+
     }
 
-    public Ennemi currentEnnemie(){
+    public Ennemi currentEnnemi(){
         return ennemis.get(nbEnnemis - 1);
     }
 
-    public int getlieu() {
+    public int getLieu() {
         return lieu;
-    }
-
-    public void setlieu(int lieu) {
-        this.lieu = lieu;
     }
 
     public String getNom() {
         return nom;
     }
 
-    public void setNom(String nom) {
-        this.nom = nom;
-    }
-
-    public int getfin() {
+    public int getFin() {
         return fin;
     }
 
-    public void setfin(int fin) {
+    public void setFin(int fin) {
         this.fin = fin;
     }
 

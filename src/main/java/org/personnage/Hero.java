@@ -13,6 +13,13 @@ public class Hero extends Personnage {
         this.MAX_PV = pv;
     }
 
+
+    @Override
+    public void attaquer(Personnage p) {
+        super.attaquer(p);
+        capaciteSpeciale.passeTour(this, (Ennemi) p);
+    }
+
     public void utiliserCapaciteSpeciale(Ennemi ennemi) {
         if (!isCapaciteSpecialeUtilisable) {
             System.out.println("La capacité spéciale a déjà été utilisée");
@@ -28,5 +35,11 @@ public class Hero extends Personnage {
     public int getMAX_PV() {
         return MAX_PV;
     }
+
+    public boolean isCapaciteSpecialeUtilisable() {
+        return isCapaciteSpecialeUtilisable;
+    }
+
+
 }
 

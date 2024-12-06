@@ -11,4 +11,8 @@ public class Soigner implements CapaciteSpeciale {
         System.out.println(hero.getNom() + " a été soigné de 20 PV");
     }
     
+    @Override
+    public void passeTour(Hero hero, Ennemi ennemi) {
+        // Ne fait rien
+    }
 }

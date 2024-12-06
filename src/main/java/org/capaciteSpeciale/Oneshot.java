@@ -10,5 +10,10 @@ public class Oneshot implements CapaciteSpeciale {
         ennemi.setPv(0);
         System.out.println(ennemi.getNom() + " a été tué en un coup");
     }
+
+    @Override
+    public void passeTour(Hero hero, Ennemi ennemi) {
+        // Ne fait rien
+    }
     
 }
