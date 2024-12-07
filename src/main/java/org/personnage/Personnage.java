@@ -14,6 +14,10 @@ public abstract class Personnage {
     }
 
     public void attaquer(Personnage p) {
+        if (this.pv <= 0) {
+            System.out.println(this.nom + " est mort et ne peut plus attaquer.");
+            return;
+        }
         int degats = this.attaque - (this.attaque * (p.getDefense()))/100;
         if (degats < 0) {
             degats = 0;
