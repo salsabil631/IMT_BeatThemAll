@@ -5,6 +5,7 @@ import org.capaciteSpeciale.Invinsible;
 import org.capaciteSpeciale.Oneshot;
 import org.capaciteSpeciale.Soigner;
 import org.carte.Carte;
+import org.logger.LoggerUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,8 +25,8 @@ public class Main {
         Hero hero = choisirHero();
         Carte carte = choisirCarte();
 
-        System.out.println("\nVous avez choisi " + hero.getNom() + " et la carte " + carte.getNom());
-        System.out.println("Appuyez sur entrée pour commencer");
+        LoggerUtil.log("\nVous avez choisi " + hero.getNom() + " et la carte " + carte.getNom());
+        LoggerUtil.log("Appuyez sur entrée pour commencer");
         scanner.nextLine();
 
         jouer(hero, carte, scanner);
@@ -44,9 +45,9 @@ public class Main {
     }
 
     private static Hero choisirHero() {
-        System.out.println("Choisissez votre personnage :");
+        LoggerUtil.log("Choisissez votre personnage :");
         for (int i = 0; i < possibleHeros.size(); i++) {
-            System.out.println((i + 1) + " - " + possibleHeros.get(i).getNom());
+            LoggerUtil.log((i + 1) + " - " + possibleHeros.get(i).getNom());
         }
 
         int choixHero = Integer.parseInt(scanner.nextLine()) - 1;
@@ -54,9 +55,9 @@ public class Main {
     }
 
     private static Carte choisirCarte() {
-        System.out.println("Choisissez votre carte :");
+        LoggerUtil.log("Choisissez votre carte :");
         for (int i = 0; i < possibleCartes.size(); i++) {
-            System.out.println((i + 1) + " - " + possibleCartes.get(i).getNom());
+            LoggerUtil.log((i + 1) + " - " + possibleCartes.get(i).getNom());
         }
 
         int choixCarte = Integer.parseInt(scanner.nextLine()) - 1;
@@ -65,11 +66,11 @@ public class Main {
 
     public static boolean jouer(Hero hero, Carte carte, Scanner scanner) {
         while (hero.getPv() > 0) {
-            System.out.println("Vous êtes dans la salle " + carte.getLieu());
+            LoggerUtil.log("Vous êtes dans la salle " + carte.getLieu());
             if (carte.currentEnnemi() != null) {
-                System.out.println("Il y a " + carte.getNbEnnemis() + " ennemis");
+                LoggerUtil.log("Il y a " + carte.getNbEnnemis() + " ennemis");
             } else {
-                System.out.println("Il n'y a plus d'ennemis");
+                LoggerUtil.log("Il n'y a plus d'ennemis");
                 carte.salleSuivante(scanner);
                 continue;
             }
@@ -81,10 +82,10 @@ public class Main {
             attaquer(hero, carte);
 
             boolean fin = carte.isReachedEnd(hero);
-            System.out.println("\nFin du tour");
+            LoggerUtil.log("\nFin du tour");
 
             if (fin) {
-                System.out.println("Vous avez gagné !");
+                LoggerUtil.log("Vous avez gagné !");
                 return true;
             }
         }
@@ -92,7 +93,7 @@ public class Main {
     }
 
     private static void utiliserCapaciteSpeciale(Hero hero, Carte carte) {
-        System.out.println("\nVoulez-vous utiliser votre capacité spéciale ? oui/non");
+        LoggerUtil.log("\nVoulez-vous utiliser votre capacité spéciale ? oui/non");
         String choix = scanner.nextLine();
         if ("oui".equals(choix)) {
             hero.utiliserCapaciteSpeciale(carte.currentEnnemi());
@@ -102,14 +103,14 @@ public class Main {
 
     private static boolean isHeroDead(Hero hero){
         if (hero.getPv() <= 0) {
-            System.out.println("Vous êtes mort !");
+            LoggerUtil.log("Vous êtes mort !");
             return false;
         }
         return true;
     }
 
     private static void attaquer(Hero hero, Carte carte) {
-        System.out.println("Appuyez sur entrée pour attaquer");
+        LoggerUtil.log("Appuyez sur entrée pour attaquer");
         scanner.nextLine();
         if (carte.currentEnnemi().getType().isDistance()) {
             carte.currentEnnemi().attaquer(hero);

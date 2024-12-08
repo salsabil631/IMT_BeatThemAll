@@ -2,6 +2,7 @@ package org.capaciteSpeciale;
 
 import org.personnage.Hero;
 import org.personnage.Ennemi;
+import org.logger.LoggerUtil;
 
 public class Invinsible implements CapaciteSpeciale {
     private int nbTour = 2;
@@ -11,7 +12,7 @@ public class Invinsible implements CapaciteSpeciale {
     public void utiliser(Hero hero, Ennemi ennemi) {
         hero.setDefense(hero.getDefense() + 100);
         estActif = true;
-        System.out.println(hero.getNom() + " est invinsible pour 2 tours");
+        LoggerUtil.log(hero.getNom() + " est invinsible pour 2 tours");
     }
 
     @Override
@@ -20,7 +21,7 @@ public class Invinsible implements CapaciteSpeciale {
         if (nbTour == 0 && estActif) {
             hero.setDefense(hero.getDefense() - 100);
             estActif = false;
-            System.out.println(hero.getNom() + " n'est plus invinsible");
+            LoggerUtil.log(hero.getNom() + " n'est plus invinsible");
             return;
         }
     }

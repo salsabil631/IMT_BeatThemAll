@@ -1,5 +1,7 @@
 package org.personnage;
 
+import org.logger.LoggerUtil;
+
 public abstract class Personnage {
     private int pv;
     private int attaque;
@@ -15,7 +17,7 @@ public abstract class Personnage {
 
     public void attaquer(Personnage p) {
         if (this.pv <= 0) {
-            System.out.println(this.nom + " est mort et ne peut plus attaquer.");
+            LoggerUtil.log(this.nom + " est mort et ne peut plus attaquer.");
             return;
         }
         int degats = this.attaque - (this.attaque * (p.getDefense()))/100;
@@ -23,7 +25,7 @@ public abstract class Personnage {
             degats = 0;
         }
         p.setPv(p.getPv() - degats);
-        System.out.println(this.nom + " attaque " + p.getNom() + " et lui inflige " + degats + " points de dégats.");
+        LoggerUtil.log(this.nom + " attaque " + p.getNom() + " et lui inflige " + degats + " points de dégats.");
     }
 
     public int getPv() {

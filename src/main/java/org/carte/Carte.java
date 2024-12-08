@@ -6,6 +6,7 @@ import java.util.Scanner;
 import org.personnage.Ennemi;
 import org.personnage.EnnemieType;
 import org.personnage.Hero;
+import org.logger.LoggerUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,16 +36,16 @@ public class Carte {
     }
 
     public void salleSuivante(Scanner scanner) {
-        System.out.println("\nVous avez vaincu tous les ennemis de la salle " + lieu);
-        System.out.println("Voulez-vous avancer ou reculer ? (a/r)");
+        LoggerUtil.log("\nVous avez vaincu tous les ennemis de la salle " + lieu);
+        LoggerUtil.log("Voulez-vous avancer ou reculer ? (a/r)");
         String choix = scanner.nextLine();
 
         if (AVANCER.equals(choix)) {
             lieu++;
-            System.out.println("Vous entrez dans la salle " + lieu + "\n");
+            LoggerUtil.log("Vous entrez dans la salle " + lieu + "\n");
         } else if (RECULER.equals(choix)) {
             if (lieu == debut) {
-                System.out.println("Vous ne pouvez pas reculer");
+                LoggerUtil.log("Vous ne pouvez pas reculer");
                 salleSuivante(scanner);
                 return;
             }
@@ -56,7 +57,7 @@ public class Carte {
             nbEnnemis = random.nextInt(MAX_NEW_ENNEMIS) + 1;
             ennemis.clear();
             genererEnnemis();
-            System.out.println("Il y a " + nbEnnemis + " ennemis dans la salle " + lieu);
+            LoggerUtil.log("Il y a " + nbEnnemis + " ennemis dans la salle " + lieu);
         }
     }
 
@@ -72,7 +73,7 @@ public class Carte {
 
     public void isEnemiDead(Ennemi ennemi, Scanner scanner) {
         if (ennemi.getPv() < 0) {
-            System.out.println("\nL'ennemi " + ennemi.getNom() + " est mort");
+            LoggerUtil.log("\nL'ennemi " + ennemi.getNom() + " est mort");
             ennemis.remove(ennemi);
             nbEnnemis--;
             if (nbEnnemis == 0) {

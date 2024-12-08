@@ -1,6 +1,7 @@
 package org.personnage;
 
 import org.capaciteSpeciale.CapaciteSpeciale;
+import org.logger.LoggerUtil;
 
 public class Hero extends Personnage {
     private CapaciteSpeciale capaciteSpeciale;
@@ -22,11 +23,11 @@ public class Hero extends Personnage {
 
     public void utiliserCapaciteSpeciale(Ennemi ennemi) {
         if (!isCapaciteSpecialeUtilisable) {
-            System.out.println("La capacité spéciale a déjà été utilisée");
+            LoggerUtil.log("La capacité spéciale a déjà été utilisée");
             return;
         }
         else{
-            System.out.println(this.getNom() + " utilise sa capacité spéciale");
+            LoggerUtil.log(this.getNom() + " utilise sa capacité spéciale");
             capaciteSpeciale.utiliser(this, ennemi);
             isCapaciteSpecialeUtilisable = false;
         }
