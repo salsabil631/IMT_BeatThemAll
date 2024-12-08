@@ -62,16 +62,11 @@ public class Carte {
 
     private void genererEnnemis() {
         for (int i = 0; i < nbEnnemis; i++) {
-            ennemis.add(new Ennemi(random.nextInt(50) + 1, random.nextInt(50) + 1, random.nextInt(50) + 1, "Ennemi " + i, EnnemieType.getRandomType()));
+            ennemis.add(new Ennemi(random.nextInt(40) + 10, random.nextInt(40) + 10, random.nextInt(40) + 10, "Ennemi " + i, EnnemieType.getRandomType()));
         }
     }
 
-    public boolean finTour(Hero hero) {
-        if (hero.getPv() < 0) {
-            System.out.println("Vous êtes mort !");
-            System.exit(0);
-        }
-
+    public boolean isReachedEnd(Hero hero) {
         return lieu == fin + 1;
     }
 

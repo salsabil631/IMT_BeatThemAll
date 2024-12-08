@@ -28,7 +28,7 @@ public class Main {
         System.out.println("Appuyez sur entrée pour commencer");
         scanner.nextLine();
 
-        jouer(hero, carte);
+        jouer(hero, carte, scanner);
     }
 
     private static void initializeHeros() {
@@ -63,7 +63,7 @@ public class Main {
         return possibleCartes.get(choixCarte);
     }
 
-    private static void jouer(Hero hero, Carte carte) {
+    public static boolean jouer(Hero hero, Carte carte, Scanner scanner) {
         while (hero.getPv() > 0) {
             System.out.println("Vous êtes dans la salle " + carte.getLieu());
             if (carte.currentEnnemi() != null) {
@@ -80,14 +80,15 @@ public class Main {
 
             attaquer(hero, carte);
 
-            boolean fin = carte.finTour(hero);
+            boolean fin = carte.isReachedEnd(hero);
             System.out.println("\nFin du tour");
 
             if (fin) {
                 System.out.println("Vous avez gagné !");
-                break;
+                return true;
             }
         }
+        return false;
     }
 
     private static void utiliserCapaciteSpeciale(Hero hero, Carte carte) {
@@ -99,15 +100,25 @@ public class Main {
         }
     }
 
+    private static boolean isHeroDead(Hero hero){
+        if (hero.getPv() <= 0) {
+            System.out.println("Vous êtes mort !");
+            return false;
+        }
+        return true;
+    }
+
     private static void attaquer(Hero hero, Carte carte) {
         System.out.println("Appuyez sur entrée pour attaquer");
         scanner.nextLine();
         if (carte.currentEnnemi().getType().isDistance()) {
             carte.currentEnnemi().attaquer(hero);
+            isHeroDead(hero);
             hero.attaquer(carte.currentEnnemi());
         } else {
             hero.attaquer(carte.currentEnnemi());
             carte.currentEnnemi().attaquer(hero);
+            isHeroDead(hero);
         }
         carte.isEnemiDead(carte.currentEnnemi(), scanner);
     }
