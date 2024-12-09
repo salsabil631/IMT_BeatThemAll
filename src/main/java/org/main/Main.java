@@ -16,6 +16,11 @@ public class Main {
     private static final List<Hero> possibleHeros = new ArrayList<>();
     private static final List<Carte> possibleCartes = new ArrayList<>();
 
+    /**
+     * Main method
+     * Method to initialize the game
+     * @param args
+     */
     public static void main(String[] args) {
         // DEBUISSON Julian et AMRI Salsabil
 
@@ -32,18 +37,28 @@ public class Main {
         jouer(hero, carte, scanner);
     }
 
+    /**
+     * Method to initialize the heros
+     */
     private static void initializeHeros() {
         possibleHeros.add(new Hero("Guerrier", 100, 50, 70, new Invinsible()));
         possibleHeros.add(new Hero("Mage", 80, 80, 50, new Soigner()));
         possibleHeros.add(new Hero("Voleur", 60, 90, 30, new Oneshot()));
     }
 
+    /**
+     * Method to initialize the cards
+     */
     private static void initializeCartes() {
         possibleCartes.add(new Carte(1, "Forêt", 5));
         possibleCartes.add(new Carte(2, "Montagne", 10));
         possibleCartes.add(new Carte(3, "Désert", 15));
     }
 
+    /**
+     * Method to choose a hero
+     * @return The chosen Hero
+     */
     private static Hero choisirHero() {
         LoggerUtil.log("Choisissez votre personnage :");
         for (int i = 0; i < possibleHeros.size(); i++) {
@@ -54,6 +69,10 @@ public class Main {
         return possibleHeros.get(choixHero);
     }
 
+    /**
+     * Method to choose a card
+     * @return The chosen card
+     */
     private static Carte choisirCarte() {
         LoggerUtil.log("Choisissez votre carte :");
         for (int i = 0; i < possibleCartes.size(); i++) {
@@ -64,6 +83,13 @@ public class Main {
         return possibleCartes.get(choixCarte);
     }
 
+    /**
+     * Method to play the game
+     * @param hero The chosen hero
+     * @param carte The chosen card
+     * @param scanner The scanner
+     * @return True if the player wins, false otherwise
+     */
     public static boolean jouer(Hero hero, Carte carte, Scanner scanner) {
         while (hero.getPv() > 0) {
             LoggerUtil.log("Vous êtes dans la salle " + carte.getLieu());
@@ -92,6 +118,11 @@ public class Main {
         return false;
     }
 
+    /**
+     * Method to use the special ability
+     * @param hero The chosen hero
+     * @param carte The chosen card
+     */
     private static void utiliserCapaciteSpeciale(Hero hero, Carte carte) {
         LoggerUtil.log("\nVoulez-vous utiliser votre capacité spéciale ? oui/non");
         String choix = scanner.nextLine();
@@ -101,25 +132,22 @@ public class Main {
         }
     }
 
-    private static boolean isHeroDead(Hero hero){
-        if (hero.getPv() <= 0) {
-            LoggerUtil.log("Vous êtes mort !");
-            return false;
-        }
-        return true;
-    }
-
+    /**
+     * Method to attack
+     * @param hero The chosen hero
+     * @param carte The chosen card
+     */
     private static void attaquer(Hero hero, Carte carte) {
         LoggerUtil.log("Appuyez sur entrée pour attaquer");
         scanner.nextLine();
         if (carte.currentEnnemi().getType().isDistance()) {
             carte.currentEnnemi().attaquer(hero);
-            isHeroDead(hero);
+            hero.isHeroDead();
             hero.attaquer(carte.currentEnnemi());
         } else {
             hero.attaquer(carte.currentEnnemi());
             carte.currentEnnemi().attaquer(hero);
-            isHeroDead(hero);
+            hero.isHeroDead();
         }
         carte.isEnemiDead(carte.currentEnnemi(), scanner);
     }

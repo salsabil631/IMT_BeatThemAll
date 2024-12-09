@@ -18,6 +18,10 @@ public enum EnnemieType {
         return distance;
     }
 
+    /**
+     * Method to get a random type of ennemie
+     * @return A random type of ennemie
+     */
     public static EnnemieType getRandomType() {
         EnnemieType[] values = EnnemieType.values();
         return values[RANDOM.nextInt(values.length)];
