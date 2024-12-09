@@ -2,10 +2,17 @@ package org.personnage;
 
 import org.logger.LoggerUtil;
 
+/**
+ * Abstract class for the characters
+ */
 public abstract class Personnage {
+    /** health points of the character */
     private int pv;
+    /** attack points of the character */
     private int attaque;
+    /** defense points of the character */
     private int defense;
+    /** name of the character */
     private String nom;
 
     /**

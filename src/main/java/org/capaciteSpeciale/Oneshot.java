@@ -4,6 +4,9 @@ import org.personnage.Hero;
 import org.personnage.Ennemi;
 import org.logger.LoggerUtil;
 
+/**
+ * Class for the one shot special capacity
+ */
 public class Oneshot implements CapaciteSpeciale {
 
     @Override

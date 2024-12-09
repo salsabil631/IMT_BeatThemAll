@@ -11,9 +11,19 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * Main class
+ * Class to initialize the game
+ */
 public class Main {
+
+    /** scanner for the user prompt */
     private static final Scanner scanner = new Scanner(System.in);
+    
+    /** list of the heros */
     private static final List<Hero> possibleHeros = new ArrayList<>();
+    
+    /** list of the cards */
     private static final List<Carte> possibleCartes = new ArrayList<>();
 
     /**

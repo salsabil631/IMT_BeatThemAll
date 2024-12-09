@@ -3,6 +3,9 @@ package org.capaciteSpeciale;
 import org.personnage.Hero;
 import org.personnage.Ennemi;
 
+/**
+ * Interface for the special capacity
+ */
 public interface CapaciteSpeciale {
 
     /**

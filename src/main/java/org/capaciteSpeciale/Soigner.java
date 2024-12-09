@@ -4,6 +4,9 @@ import org.personnage.Hero;
 import org.personnage.Ennemi;
 import org.logger.LoggerUtil;
 
+/**
+ * Class for the heal special capacity
+ */
 public class Soigner implements CapaciteSpeciale {
 
     @Override

@@ -11,17 +11,30 @@ import org.logger.LoggerUtil;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Class for the map
+ */
 public class Carte {
+    /** max number of new ennemies */
     private static final int MAX_NEW_ENNEMIS = 3;
+    /** string for the action to go forward */
     private static final String AVANCER = "a";
+    /** string for the action to go backward */
     private static final String RECULER = "r";
 
+    /** current location */
     private int lieu;
+    /** name of the map */
     private String nom;
+    /** start of the map */
     private int debut;
+    /** end of the map */
     private int fin;
+    /** number of ennemies */
     private int nbEnnemis;
+    /** progression of the hero */
     private int progression;
+    /** list of ennemies */
     private List<Ennemi> ennemis = new ArrayList<>();
     private Random random = new Random();
 

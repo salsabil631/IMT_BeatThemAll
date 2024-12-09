@@ -2,11 +2,15 @@ package org.personnage;
 
 import java.util.Random;
 
+/**
+ * Enum for the type of ennemie
+ */
 public enum EnnemieType {
     BRIGANDS(false),
     CATCHEURS(false),
     GANGSTERS(true);
 
+    /** if the ennemie is distance */
     private final boolean distance;
     private static final Random RANDOM = new Random();
 

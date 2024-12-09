@@ -1,5 +1,8 @@
 package org.personnage;
 
+/**
+ * Class for the enemy
+ */
 public class Ennemi extends Personnage {
     private EnnemieType type;
 

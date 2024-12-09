@@ -3,9 +3,15 @@ package org.personnage;
 import org.capaciteSpeciale.CapaciteSpeciale;
 import org.logger.LoggerUtil;
 
+/**
+ * Class for the hero
+ */
 public class Hero extends Personnage {
+    /** special capacity */
     private CapaciteSpeciale capaciteSpeciale;
+    /** if the special capacity is usable */
     private boolean isCapaciteSpecialeUtilisable = true;
+    /** maximum number of hp */
     private final int MAX_PV;
 
     public Hero(String nom, int pv, int attaque, int defense, CapaciteSpeciale capaciteSpeciale) {

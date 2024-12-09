@@ -4,8 +4,13 @@ import org.personnage.Hero;
 import org.personnage.Ennemi;
 import org.logger.LoggerUtil;
 
+/**
+ * Class for the invinsible special capacity
+ */
 public class Invinsible implements CapaciteSpeciale {
+    /** number of turns */
     private int nbTour = 2;
+    /** if the capacity is active */
     private boolean estActif = false;
 
     @Override
