@@ -1,5 +1,7 @@
 package org.personnage;
 
+import java.util.Random;
+
 import org.capaciteSpeciale.CapaciteSpeciale;
 import org.logger.LoggerUtil;
 
@@ -14,6 +16,8 @@ public class Hero extends Personnage {
     /** maximum number of hp */
     private final int MAX_PV;
 
+    private Random random = new Random();
+
     public Hero(String nom, int pv, int attaque, int defense, CapaciteSpeciale capaciteSpeciale) {
         super(pv, attaque, defense, nom);
         this.capaciteSpeciale = capaciteSpeciale;
@@ -23,7 +27,9 @@ public class Hero extends Personnage {
 
     @Override
     public void attaquer(Personnage p) {
-        super.attaquer(p);
+        for(int i=0; i< random.nextInt(5)+1; i++){
+            super.attaquer(p);
+        }
         capaciteSpeciale.passeTour(this, (Ennemi) p);
     }
 

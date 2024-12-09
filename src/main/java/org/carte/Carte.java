@@ -76,7 +76,7 @@ public class Carte {
 
     private void genererEnnemis() {
         for (int i = 0; i < nbEnnemis; i++) {
-            ennemis.add(new Ennemi(random.nextInt(40) + 10, random.nextInt(40) + 10, random.nextInt(40) + 10, "Ennemi " + i, EnnemieType.getRandomType()));
+            ennemis.add(new Ennemi(random.nextInt(70) + 10, random.nextInt(70) + 10, random.nextInt(70) + 10, "Ennemi " + i, EnnemieType.getRandomType()));
         }
     }
 

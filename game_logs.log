@@ -325,3 +325,773 @@ INFO:
 Fin du tour
 déc. 08, 2024 7:57:22 PM org.logger.LoggerUtil log
 INFO: Vous avez gagné !
+déc. 09, 2024 2:53:32 PM org.logger.LoggerUtil log
+INFO: Choisissez votre personnage :
+déc. 09, 2024 2:53:32 PM org.logger.LoggerUtil log
+INFO: 1 - Guerrier
+déc. 09, 2024 2:53:32 PM org.logger.LoggerUtil log
+INFO: 2 - Mage
+déc. 09, 2024 2:53:32 PM org.logger.LoggerUtil log
+INFO: 3 - Voleur
+déc. 09, 2024 2:53:37 PM org.logger.LoggerUtil log
+INFO: Choisissez votre carte :
+déc. 09, 2024 2:53:37 PM org.logger.LoggerUtil log
+INFO: 1 - Forêt
+déc. 09, 2024 2:53:37 PM org.logger.LoggerUtil log
+INFO: 2 - Montagne
+déc. 09, 2024 2:53:37 PM org.logger.LoggerUtil log
+INFO: 3 - Désert
+déc. 09, 2024 2:53:38 PM org.logger.LoggerUtil log
+INFO: 
+Vous avez choisi Guerrier et la carte Forêt
+déc. 09, 2024 2:53:38 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour commencer
+déc. 09, 2024 2:53:38 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 1
+déc. 09, 2024 2:53:38 PM org.logger.LoggerUtil log
+INFO: Il y a 3 ennemis
+déc. 09, 2024 2:53:38 PM org.logger.LoggerUtil log
+INFO: 
+Voulez-vous utiliser votre capacité spéciale ? oui/non
+déc. 09, 2024 2:53:39 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:53:40 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 2 et lui inflige 30 points de dégats.
+déc. 09, 2024 2:53:40 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 2 et lui inflige 30 points de dégats.
+déc. 09, 2024 2:53:40 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 2 et lui inflige 30 points de dégats.
+déc. 09, 2024 2:53:40 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 2 et lui inflige 30 points de dégats.
+déc. 09, 2024 2:53:40 PM org.logger.LoggerUtil log
+INFO: Ennemi 2 est mort et ne peut plus attaquer.
+déc. 09, 2024 2:53:40 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 2 est mort
+déc. 09, 2024 2:53:40 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:53:40 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 1
+déc. 09, 2024 2:53:40 PM org.logger.LoggerUtil log
+INFO: Il y a 2 ennemis
+déc. 09, 2024 2:53:40 PM org.logger.LoggerUtil log
+INFO: 
+Voulez-vous utiliser votre capacité spéciale ? oui/non
+déc. 09, 2024 2:53:47 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:53:47 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 22 points de dégats.
+déc. 09, 2024 2:53:47 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 22 points de dégats.
+déc. 09, 2024 2:53:47 PM org.logger.LoggerUtil log
+INFO: Ennemi 1 attaque Guerrier et lui inflige 6 points de dégats.
+déc. 09, 2024 2:53:47 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:53:47 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 1
+déc. 09, 2024 2:53:47 PM org.logger.LoggerUtil log
+INFO: Il y a 2 ennemis
+déc. 09, 2024 2:53:47 PM org.logger.LoggerUtil log
+INFO: 
+Voulez-vous utiliser votre capacité spéciale ? oui/non
+déc. 09, 2024 2:54:14 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:54:15 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 22 points de dégats.
+déc. 09, 2024 2:54:15 PM org.logger.LoggerUtil log
+INFO: Ennemi 1 attaque Guerrier et lui inflige 6 points de dégats.
+déc. 09, 2024 2:54:15 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:54:15 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 1
+déc. 09, 2024 2:54:15 PM org.logger.LoggerUtil log
+INFO: Il y a 2 ennemis
+déc. 09, 2024 2:54:15 PM org.logger.LoggerUtil log
+INFO: 
+Voulez-vous utiliser votre capacité spéciale ? oui/non
+déc. 09, 2024 2:54:19 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:54:21 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 22 points de dégats.
+déc. 09, 2024 2:54:21 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 22 points de dégats.
+déc. 09, 2024 2:54:21 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 22 points de dégats.
+déc. 09, 2024 2:54:21 PM org.logger.LoggerUtil log
+INFO: Ennemi 1 est mort et ne peut plus attaquer.
+déc. 09, 2024 2:54:21 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 1 est mort
+déc. 09, 2024 2:54:21 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:54:21 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 1
+déc. 09, 2024 2:54:21 PM org.logger.LoggerUtil log
+INFO: Il y a 1 ennemis
+déc. 09, 2024 2:54:21 PM org.logger.LoggerUtil log
+INFO: 
+Voulez-vous utiliser votre capacité spéciale ? oui/non
+déc. 09, 2024 2:54:29 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:54:29 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 11 points de dégats.
+déc. 09, 2024 2:54:29 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 11 points de dégats.
+déc. 09, 2024 2:54:29 PM org.logger.LoggerUtil log
+INFO: Ennemi 0 attaque Guerrier et lui inflige 9 points de dégats.
+déc. 09, 2024 2:54:29 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:54:29 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 1
+déc. 09, 2024 2:54:29 PM org.logger.LoggerUtil log
+INFO: Il y a 1 ennemis
+déc. 09, 2024 2:54:29 PM org.logger.LoggerUtil log
+INFO: 
+Voulez-vous utiliser votre capacité spéciale ? oui/non
+déc. 09, 2024 2:54:32 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:54:33 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 11 points de dégats.
+déc. 09, 2024 2:54:33 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 11 points de dégats.
+déc. 09, 2024 2:54:33 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 11 points de dégats.
+déc. 09, 2024 2:54:33 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 11 points de dégats.
+déc. 09, 2024 2:54:33 PM org.logger.LoggerUtil log
+INFO: Ennemi 0 attaque Guerrier et lui inflige 9 points de dégats.
+déc. 09, 2024 2:54:33 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:54:33 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 1
+déc. 09, 2024 2:54:33 PM org.logger.LoggerUtil log
+INFO: Il y a 1 ennemis
+déc. 09, 2024 2:54:33 PM org.logger.LoggerUtil log
+INFO: 
+Voulez-vous utiliser votre capacité spéciale ? oui/non
+déc. 09, 2024 2:54:35 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:54:35 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 11 points de dégats.
+déc. 09, 2024 2:54:35 PM org.logger.LoggerUtil log
+INFO: Ennemi 0 est mort et ne peut plus attaquer.
+déc. 09, 2024 2:54:35 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 0 est mort
+déc. 09, 2024 2:54:35 PM org.logger.LoggerUtil log
+INFO: 
+Vous avez vaincu tous les ennemis de la salle 1
+déc. 09, 2024 2:54:35 PM org.logger.LoggerUtil log
+INFO: Voulez-vous avancer ou reculer ? (a/r)
+déc. 09, 2024 2:55:34 PM org.logger.LoggerUtil log
+INFO: Choisissez votre personnage :
+déc. 09, 2024 2:55:35 PM org.logger.LoggerUtil log
+INFO: 1 - Guerrier
+déc. 09, 2024 2:55:35 PM org.logger.LoggerUtil log
+INFO: 2 - Mage
+déc. 09, 2024 2:55:35 PM org.logger.LoggerUtil log
+INFO: 3 - Voleur
+déc. 09, 2024 2:55:36 PM org.logger.LoggerUtil log
+INFO: Choisissez votre carte :
+déc. 09, 2024 2:55:36 PM org.logger.LoggerUtil log
+INFO: 1 - Forêt
+déc. 09, 2024 2:55:36 PM org.logger.LoggerUtil log
+INFO: 2 - Montagne
+déc. 09, 2024 2:55:36 PM org.logger.LoggerUtil log
+INFO: 3 - Désert
+déc. 09, 2024 2:55:37 PM org.logger.LoggerUtil log
+INFO: 
+Vous avez choisi Guerrier et la carte Forêt
+déc. 09, 2024 2:55:37 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour commencer
+déc. 09, 2024 2:55:38 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 1
+déc. 09, 2024 2:55:38 PM org.logger.LoggerUtil log
+INFO: Il y a 2 ennemis
+déc. 09, 2024 2:55:38 PM org.logger.LoggerUtil log
+INFO: 
+Voulez-vous utiliser votre capacité spéciale ? oui/non
+déc. 09, 2024 2:55:42 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:55:42 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 31 points de dégats.
+déc. 09, 2024 2:55:42 PM org.logger.LoggerUtil log
+INFO: Ennemi 1 est mort et ne peut plus attaquer.
+déc. 09, 2024 2:55:42 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 1 est mort
+déc. 09, 2024 2:55:42 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:55:42 PM org.logger.LoggerUtil log
+INFO: il vous reste 100 pv
+déc. 09, 2024 2:55:42 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 1
+déc. 09, 2024 2:55:42 PM org.logger.LoggerUtil log
+INFO: Il y a 1 ennemis
+déc. 09, 2024 2:55:42 PM org.logger.LoggerUtil log
+INFO: 
+Voulez-vous utiliser votre capacité spéciale ? oui/non
+déc. 09, 2024 2:55:47 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:55:48 PM org.logger.LoggerUtil log
+INFO: Ennemi 0 attaque Guerrier et lui inflige 6 points de dégats.
+déc. 09, 2024 2:55:48 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 13 points de dégats.
+déc. 09, 2024 2:55:48 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 13 points de dégats.
+déc. 09, 2024 2:55:48 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 0 est mort
+déc. 09, 2024 2:55:48 PM org.logger.LoggerUtil log
+INFO: 
+Vous avez vaincu tous les ennemis de la salle 1
+déc. 09, 2024 2:55:48 PM org.logger.LoggerUtil log
+INFO: Voulez-vous avancer ou reculer ? (a/r)
+déc. 09, 2024 2:55:55 PM org.logger.LoggerUtil log
+INFO: Vous entrez dans la salle 2
+
+déc. 09, 2024 2:55:55 PM org.logger.LoggerUtil log
+INFO: Il y a 2 ennemis dans la salle 2
+déc. 09, 2024 2:55:55 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:55:55 PM org.logger.LoggerUtil log
+INFO: il vous reste 94 pv
+déc. 09, 2024 2:55:55 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 2
+déc. 09, 2024 2:55:55 PM org.logger.LoggerUtil log
+INFO: Il y a 2 ennemis
+déc. 09, 2024 2:55:55 PM org.logger.LoggerUtil log
+INFO: 
+Voulez-vous utiliser votre capacité spéciale ? oui/non
+déc. 09, 2024 2:55:56 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:55:58 PM org.logger.LoggerUtil log
+INFO: Ennemi 1 attaque Guerrier et lui inflige 21 points de dégats.
+déc. 09, 2024 2:55:58 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 43 points de dégats.
+déc. 09, 2024 2:55:58 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 43 points de dégats.
+déc. 09, 2024 2:55:58 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 43 points de dégats.
+déc. 09, 2024 2:55:58 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 43 points de dégats.
+déc. 09, 2024 2:55:58 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 1 est mort
+déc. 09, 2024 2:55:58 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:55:58 PM org.logger.LoggerUtil log
+INFO: il vous reste 73 pv
+déc. 09, 2024 2:55:58 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 2
+déc. 09, 2024 2:55:58 PM org.logger.LoggerUtil log
+INFO: Il y a 1 ennemis
+déc. 09, 2024 2:55:58 PM org.logger.LoggerUtil log
+INFO: 
+Voulez-vous utiliser votre capacité spéciale ? oui/non
+déc. 09, 2024 2:56:12 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:56:12 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 25 points de dégats.
+déc. 09, 2024 2:56:12 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 25 points de dégats.
+déc. 09, 2024 2:56:12 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 25 points de dégats.
+déc. 09, 2024 2:56:12 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 25 points de dégats.
+déc. 09, 2024 2:56:12 PM org.logger.LoggerUtil log
+INFO: Ennemi 0 est mort et ne peut plus attaquer.
+déc. 09, 2024 2:56:12 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 0 est mort
+déc. 09, 2024 2:56:12 PM org.logger.LoggerUtil log
+INFO: 
+Vous avez vaincu tous les ennemis de la salle 2
+déc. 09, 2024 2:56:12 PM org.logger.LoggerUtil log
+INFO: Voulez-vous avancer ou reculer ? (a/r)
+déc. 09, 2024 2:56:15 PM org.logger.LoggerUtil log
+INFO: Vous entrez dans la salle 3
+
+déc. 09, 2024 2:56:15 PM org.logger.LoggerUtil log
+INFO: Il y a 1 ennemis dans la salle 3
+déc. 09, 2024 2:56:15 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:56:15 PM org.logger.LoggerUtil log
+INFO: il vous reste 73 pv
+déc. 09, 2024 2:56:15 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 3
+déc. 09, 2024 2:56:15 PM org.logger.LoggerUtil log
+INFO: Il y a 1 ennemis
+déc. 09, 2024 2:56:15 PM org.logger.LoggerUtil log
+INFO: 
+Voulez-vous utiliser votre capacité spéciale ? oui/non
+déc. 09, 2024 2:56:16 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:56:17 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 43 points de dégats.
+déc. 09, 2024 2:56:17 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 43 points de dégats.
+déc. 09, 2024 2:56:17 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 43 points de dégats.
+déc. 09, 2024 2:56:17 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 43 points de dégats.
+déc. 09, 2024 2:56:17 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 43 points de dégats.
+déc. 09, 2024 2:56:17 PM org.logger.LoggerUtil log
+INFO: Ennemi 0 est mort et ne peut plus attaquer.
+déc. 09, 2024 2:56:17 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 0 est mort
+déc. 09, 2024 2:56:17 PM org.logger.LoggerUtil log
+INFO: 
+Vous avez vaincu tous les ennemis de la salle 3
+déc. 09, 2024 2:56:17 PM org.logger.LoggerUtil log
+INFO: Voulez-vous avancer ou reculer ? (a/r)
+déc. 09, 2024 2:56:19 PM org.logger.LoggerUtil log
+INFO: Vous entrez dans la salle 4
+
+déc. 09, 2024 2:56:19 PM org.logger.LoggerUtil log
+INFO: Il y a 1 ennemis dans la salle 4
+déc. 09, 2024 2:56:19 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:56:19 PM org.logger.LoggerUtil log
+INFO: il vous reste 73 pv
+déc. 09, 2024 2:56:19 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 4
+déc. 09, 2024 2:56:19 PM org.logger.LoggerUtil log
+INFO: Il y a 1 ennemis
+déc. 09, 2024 2:56:19 PM org.logger.LoggerUtil log
+INFO: 
+Voulez-vous utiliser votre capacité spéciale ? oui/non
+déc. 09, 2024 2:56:21 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:56:22 PM org.logger.LoggerUtil log
+INFO: Ennemi 0 attaque Guerrier et lui inflige 22 points de dégats.
+déc. 09, 2024 2:56:22 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 33 points de dégats.
+déc. 09, 2024 2:56:22 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 0 est mort
+déc. 09, 2024 2:56:22 PM org.logger.LoggerUtil log
+INFO: 
+Vous avez vaincu tous les ennemis de la salle 4
+déc. 09, 2024 2:56:22 PM org.logger.LoggerUtil log
+INFO: Voulez-vous avancer ou reculer ? (a/r)
+déc. 09, 2024 2:56:26 PM org.logger.LoggerUtil log
+INFO: Vous entrez dans la salle 5
+
+déc. 09, 2024 2:56:26 PM org.logger.LoggerUtil log
+INFO: Il y a 3 ennemis dans la salle 5
+déc. 09, 2024 2:56:26 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:56:26 PM org.logger.LoggerUtil log
+INFO: il vous reste 51 pv
+déc. 09, 2024 2:56:26 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 5
+déc. 09, 2024 2:56:26 PM org.logger.LoggerUtil log
+INFO: Il y a 3 ennemis
+déc. 09, 2024 2:56:26 PM org.logger.LoggerUtil log
+INFO: 
+Voulez-vous utiliser votre capacité spéciale ? oui/non
+déc. 09, 2024 2:56:29 PM org.logger.LoggerUtil log
+INFO: Guerrier utilise sa capacité spéciale
+déc. 09, 2024 2:56:29 PM org.logger.LoggerUtil log
+INFO: Guerrier est invinsible pour 2 tours
+déc. 09, 2024 2:56:29 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:56:36 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 2 et lui inflige 38 points de dégats.
+déc. 09, 2024 2:56:36 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 2 et lui inflige 38 points de dégats.
+déc. 09, 2024 2:56:36 PM org.logger.LoggerUtil log
+INFO: Ennemi 2 est mort et ne peut plus attaquer.
+déc. 09, 2024 2:56:36 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 2 est mort
+déc. 09, 2024 2:56:36 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:56:36 PM org.logger.LoggerUtil log
+INFO: il vous reste 51 pv
+déc. 09, 2024 2:56:36 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 5
+déc. 09, 2024 2:56:36 PM org.logger.LoggerUtil log
+INFO: Il y a 2 ennemis
+déc. 09, 2024 2:56:36 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:56:43 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 23 points de dégats.
+déc. 09, 2024 2:56:43 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 23 points de dégats.
+déc. 09, 2024 2:56:43 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 23 points de dégats.
+déc. 09, 2024 2:56:43 PM org.logger.LoggerUtil log
+INFO: Ennemi 1 est mort et ne peut plus attaquer.
+déc. 09, 2024 2:56:43 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 1 est mort
+déc. 09, 2024 2:56:43 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:56:43 PM org.logger.LoggerUtil log
+INFO: il vous reste 51 pv
+déc. 09, 2024 2:56:43 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 5
+déc. 09, 2024 2:56:43 PM org.logger.LoggerUtil log
+INFO: Il y a 1 ennemis
+déc. 09, 2024 2:56:43 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:56:49 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 27 points de dégats.
+déc. 09, 2024 2:56:49 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 27 points de dégats.
+déc. 09, 2024 2:56:49 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 27 points de dégats.
+déc. 09, 2024 2:56:49 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 27 points de dégats.
+déc. 09, 2024 2:56:49 PM org.logger.LoggerUtil log
+INFO: Ennemi 0 est mort et ne peut plus attaquer.
+déc. 09, 2024 2:56:49 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 0 est mort
+déc. 09, 2024 2:56:49 PM org.logger.LoggerUtil log
+INFO: 
+Vous avez vaincu tous les ennemis de la salle 5
+déc. 09, 2024 2:56:49 PM org.logger.LoggerUtil log
+INFO: Voulez-vous avancer ou reculer ? (a/r)
+déc. 09, 2024 2:57:18 PM org.logger.LoggerUtil log
+INFO: Vous entrez dans la salle 6
+
+déc. 09, 2024 2:57:18 PM org.logger.LoggerUtil log
+INFO: Il y a 1 ennemis dans la salle 6
+déc. 09, 2024 2:57:18 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:57:18 PM org.logger.LoggerUtil log
+INFO: il vous reste 51 pv
+déc. 09, 2024 2:57:18 PM org.logger.LoggerUtil log
+INFO: Vous avez gagné !
+déc. 09, 2024 2:57:22 PM org.logger.LoggerUtil log
+INFO: Choisissez votre personnage :
+déc. 09, 2024 2:57:22 PM org.logger.LoggerUtil log
+INFO: 1 - Guerrier
+déc. 09, 2024 2:57:22 PM org.logger.LoggerUtil log
+INFO: 2 - Mage
+déc. 09, 2024 2:57:22 PM org.logger.LoggerUtil log
+INFO: 3 - Voleur
+déc. 09, 2024 2:57:24 PM org.logger.LoggerUtil log
+INFO: Choisissez votre carte :
+déc. 09, 2024 2:57:24 PM org.logger.LoggerUtil log
+INFO: 1 - Forêt
+déc. 09, 2024 2:57:24 PM org.logger.LoggerUtil log
+INFO: 2 - Montagne
+déc. 09, 2024 2:57:24 PM org.logger.LoggerUtil log
+INFO: 3 - Désert
+déc. 09, 2024 2:57:25 PM org.logger.LoggerUtil log
+INFO: 
+Vous avez choisi Guerrier et la carte Forêt
+déc. 09, 2024 2:57:25 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour commencer
+déc. 09, 2024 2:57:27 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 1
+déc. 09, 2024 2:57:27 PM org.logger.LoggerUtil log
+INFO: Il y a 2 ennemis
+déc. 09, 2024 2:57:27 PM org.logger.LoggerUtil log
+INFO: 
+Voulez-vous utiliser votre capacité spéciale ? oui/non
+déc. 09, 2024 2:57:28 PM org.logger.LoggerUtil log
+INFO: Guerrier utilise sa capacité spéciale
+déc. 09, 2024 2:57:28 PM org.logger.LoggerUtil log
+INFO: Guerrier est invinsible pour 2 tours
+déc. 09, 2024 2:57:28 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:57:30 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 31 points de dégats.
+déc. 09, 2024 2:57:30 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 31 points de dégats.
+déc. 09, 2024 2:57:30 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 31 points de dégats.
+déc. 09, 2024 2:57:30 PM org.logger.LoggerUtil log
+INFO: Ennemi 1 est mort et ne peut plus attaquer.
+déc. 09, 2024 2:57:30 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 1 est mort
+déc. 09, 2024 2:57:30 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:57:30 PM org.logger.LoggerUtil log
+INFO: il vous reste 100 pv
+déc. 09, 2024 2:57:30 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 1
+déc. 09, 2024 2:57:30 PM org.logger.LoggerUtil log
+INFO: Il y a 1 ennemis
+déc. 09, 2024 2:57:30 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:57:32 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 14 points de dégats.
+déc. 09, 2024 2:57:32 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 14 points de dégats.
+déc. 09, 2024 2:57:32 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 14 points de dégats.
+déc. 09, 2024 2:57:32 PM org.logger.LoggerUtil log
+INFO: Guerrier n'est plus invinsible
+déc. 09, 2024 2:57:32 PM org.logger.LoggerUtil log
+INFO: Ennemi 0 est mort et ne peut plus attaquer.
+déc. 09, 2024 2:57:32 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 0 est mort
+déc. 09, 2024 2:57:32 PM org.logger.LoggerUtil log
+INFO: 
+Vous avez vaincu tous les ennemis de la salle 1
+déc. 09, 2024 2:57:32 PM org.logger.LoggerUtil log
+INFO: Voulez-vous avancer ou reculer ? (a/r)
+déc. 09, 2024 2:57:34 PM org.logger.LoggerUtil log
+INFO: Vous entrez dans la salle 2
+
+déc. 09, 2024 2:57:34 PM org.logger.LoggerUtil log
+INFO: Il y a 2 ennemis dans la salle 2
+déc. 09, 2024 2:57:34 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:57:34 PM org.logger.LoggerUtil log
+INFO: il vous reste 100 pv
+déc. 09, 2024 2:57:34 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 2
+déc. 09, 2024 2:57:34 PM org.logger.LoggerUtil log
+INFO: Il y a 2 ennemis
+déc. 09, 2024 2:57:34 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:57:36 PM org.logger.LoggerUtil log
+INFO: Ennemi 1 attaque Guerrier et lui inflige 21 points de dégats.
+déc. 09, 2024 2:57:36 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 22 points de dégats.
+déc. 09, 2024 2:57:36 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 22 points de dégats.
+déc. 09, 2024 2:57:36 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 22 points de dégats.
+déc. 09, 2024 2:57:36 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 1 est mort
+déc. 09, 2024 2:57:36 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:57:36 PM org.logger.LoggerUtil log
+INFO: il vous reste 79 pv
+déc. 09, 2024 2:57:36 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 2
+déc. 09, 2024 2:57:36 PM org.logger.LoggerUtil log
+INFO: Il y a 1 ennemis
+déc. 09, 2024 2:57:36 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:57:37 PM org.logger.LoggerUtil log
+INFO: Ennemi 0 attaque Guerrier et lui inflige 5 points de dégats.
+déc. 09, 2024 2:57:37 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 11 points de dégats.
+déc. 09, 2024 2:57:37 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 11 points de dégats.
+déc. 09, 2024 2:57:37 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 11 points de dégats.
+déc. 09, 2024 2:57:37 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 11 points de dégats.
+déc. 09, 2024 2:57:37 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 0 est mort
+déc. 09, 2024 2:57:37 PM org.logger.LoggerUtil log
+INFO: 
+Vous avez vaincu tous les ennemis de la salle 2
+déc. 09, 2024 2:57:37 PM org.logger.LoggerUtil log
+INFO: Voulez-vous avancer ou reculer ? (a/r)
+déc. 09, 2024 2:57:40 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:57:40 PM org.logger.LoggerUtil log
+INFO: il vous reste 74 pv
+déc. 09, 2024 2:57:40 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 2
+déc. 09, 2024 2:57:40 PM org.logger.LoggerUtil log
+INFO: Il n'y a plus d'ennemis
+déc. 09, 2024 2:57:40 PM org.logger.LoggerUtil log
+INFO: 
+Vous avez vaincu tous les ennemis de la salle 2
+déc. 09, 2024 2:57:40 PM org.logger.LoggerUtil log
+INFO: Voulez-vous avancer ou reculer ? (a/r)
+déc. 09, 2024 2:57:42 PM org.logger.LoggerUtil log
+INFO: Vous entrez dans la salle 3
+
+déc. 09, 2024 2:57:42 PM org.logger.LoggerUtil log
+INFO: Il y a 3 ennemis dans la salle 3
+déc. 09, 2024 2:57:42 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 3
+déc. 09, 2024 2:57:42 PM org.logger.LoggerUtil log
+INFO: Il y a 3 ennemis
+déc. 09, 2024 2:57:42 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:57:42 PM org.logger.LoggerUtil log
+INFO: Ennemi 2 attaque Guerrier et lui inflige 14 points de dégats.
+déc. 09, 2024 2:57:42 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 2 et lui inflige 12 points de dégats.
+déc. 09, 2024 2:57:42 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 2 et lui inflige 12 points de dégats.
+déc. 09, 2024 2:57:42 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 2 et lui inflige 12 points de dégats.
+déc. 09, 2024 2:57:42 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 2 est mort
+déc. 09, 2024 2:57:42 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:57:42 PM org.logger.LoggerUtil log
+INFO: il vous reste 60 pv
+déc. 09, 2024 2:57:42 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 3
+déc. 09, 2024 2:57:42 PM org.logger.LoggerUtil log
+INFO: Il y a 2 ennemis
+déc. 09, 2024 2:57:42 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:57:44 PM org.logger.LoggerUtil log
+INFO: Ennemi 1 attaque Guerrier et lui inflige 10 points de dégats.
+déc. 09, 2024 2:57:44 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 18 points de dégats.
+déc. 09, 2024 2:57:44 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 18 points de dégats.
+déc. 09, 2024 2:57:44 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 18 points de dégats.
+déc. 09, 2024 2:57:44 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:57:44 PM org.logger.LoggerUtil log
+INFO: il vous reste 50 pv
+déc. 09, 2024 2:57:44 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 3
+déc. 09, 2024 2:57:44 PM org.logger.LoggerUtil log
+INFO: Il y a 2 ennemis
+déc. 09, 2024 2:57:44 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:58:05 PM org.logger.LoggerUtil log
+INFO: Ennemi 1 attaque Guerrier et lui inflige 10 points de dégats.
+déc. 09, 2024 2:58:05 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 18 points de dégats.
+déc. 09, 2024 2:58:05 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 18 points de dégats.
+déc. 09, 2024 2:58:05 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 1 et lui inflige 18 points de dégats.
+déc. 09, 2024 2:58:05 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 1 est mort
+déc. 09, 2024 2:58:05 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:58:05 PM org.logger.LoggerUtil log
+INFO: il vous reste 40 pv
+déc. 09, 2024 2:58:05 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 3
+déc. 09, 2024 2:58:05 PM org.logger.LoggerUtil log
+INFO: Il y a 1 ennemis
+déc. 09, 2024 2:58:05 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:58:10 PM org.logger.LoggerUtil log
+INFO: Ennemi 0 attaque Guerrier et lui inflige 12 points de dégats.
+déc. 09, 2024 2:58:10 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 37 points de dégats.
+déc. 09, 2024 2:58:10 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 37 points de dégats.
+déc. 09, 2024 2:58:10 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 37 points de dégats.
+déc. 09, 2024 2:58:10 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 0 est mort
+déc. 09, 2024 2:58:10 PM org.logger.LoggerUtil log
+INFO: 
+Vous avez vaincu tous les ennemis de la salle 3
+déc. 09, 2024 2:58:10 PM org.logger.LoggerUtil log
+INFO: Voulez-vous avancer ou reculer ? (a/r)
+déc. 09, 2024 2:58:12 PM org.logger.LoggerUtil log
+INFO: Vous entrez dans la salle 4
+
+déc. 09, 2024 2:58:12 PM org.logger.LoggerUtil log
+INFO: Il y a 1 ennemis dans la salle 4
+déc. 09, 2024 2:58:12 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:58:12 PM org.logger.LoggerUtil log
+INFO: il vous reste 28 pv
+déc. 09, 2024 2:58:12 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 4
+déc. 09, 2024 2:58:12 PM org.logger.LoggerUtil log
+INFO: Il y a 1 ennemis
+déc. 09, 2024 2:58:12 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:58:13 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 41 points de dégats.
+déc. 09, 2024 2:58:13 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 41 points de dégats.
+déc. 09, 2024 2:58:13 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 41 points de dégats.
+déc. 09, 2024 2:58:13 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 41 points de dégats.
+déc. 09, 2024 2:58:13 PM org.logger.LoggerUtil log
+INFO: Ennemi 0 est mort et ne peut plus attaquer.
+déc. 09, 2024 2:58:13 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 0 est mort
+déc. 09, 2024 2:58:13 PM org.logger.LoggerUtil log
+INFO: 
+Vous avez vaincu tous les ennemis de la salle 4
+déc. 09, 2024 2:58:13 PM org.logger.LoggerUtil log
+INFO: Voulez-vous avancer ou reculer ? (a/r)
+déc. 09, 2024 2:58:15 PM org.logger.LoggerUtil log
+INFO: Vous entrez dans la salle 5
+
+déc. 09, 2024 2:58:15 PM org.logger.LoggerUtil log
+INFO: Il y a 1 ennemis dans la salle 5
+déc. 09, 2024 2:58:15 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:58:15 PM org.logger.LoggerUtil log
+INFO: il vous reste 28 pv
+déc. 09, 2024 2:58:15 PM org.logger.LoggerUtil log
+INFO: Vous êtes dans la salle 5
+déc. 09, 2024 2:58:15 PM org.logger.LoggerUtil log
+INFO: Il y a 1 ennemis
+déc. 09, 2024 2:58:15 PM org.logger.LoggerUtil log
+INFO: Appuyez sur entrée pour attaquer
+déc. 09, 2024 2:58:17 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 21 points de dégats.
+déc. 09, 2024 2:58:17 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 21 points de dégats.
+déc. 09, 2024 2:58:17 PM org.logger.LoggerUtil log
+INFO: Guerrier attaque Ennemi 0 et lui inflige 21 points de dégats.
+déc. 09, 2024 2:58:17 PM org.logger.LoggerUtil log
+INFO: Ennemi 0 est mort et ne peut plus attaquer.
+déc. 09, 2024 2:58:17 PM org.logger.LoggerUtil log
+INFO: 
+L'ennemi Ennemi 0 est mort
+déc. 09, 2024 2:58:17 PM org.logger.LoggerUtil log
+INFO: 
+Vous avez vaincu tous les ennemis de la salle 5
+déc. 09, 2024 2:58:17 PM org.logger.LoggerUtil log
+INFO: Voulez-vous avancer ou reculer ? (a/r)
+déc. 09, 2024 2:58:18 PM org.logger.LoggerUtil log
+INFO: Vous entrez dans la salle 6
+
+déc. 09, 2024 2:58:18 PM org.logger.LoggerUtil log
+INFO: Il y a 2 ennemis dans la salle 6
+déc. 09, 2024 2:58:18 PM org.logger.LoggerUtil log
+INFO: 
+Fin du tour
+déc. 09, 2024 2:58:18 PM org.logger.LoggerUtil log
+INFO: il vous reste 28 pv
+déc. 09, 2024 2:58:18 PM org.logger.LoggerUtil log
+INFO: Vous avez gagné !

@@ -119,6 +119,7 @@ public class Main {
 
             boolean fin = carte.isReachedEnd(hero);
             LoggerUtil.log("\nFin du tour");
+            LoggerUtil.log("il vous reste "+ hero.getPv()+ " pv");
 
             if (fin) {
                 LoggerUtil.log("Vous avez gagné !");
